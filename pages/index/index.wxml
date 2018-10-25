@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <view>
+    <image src='../../material/gmair.png'></image>
+  </view>
+</view>
