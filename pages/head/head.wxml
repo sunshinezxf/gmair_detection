@@ -1,0 +1,5 @@
+<template name='header'>
+  <view class='twelve column row center'>
+      <image src='../../material/gmair.png' class='logo'></image>
+  </view>
+</template>

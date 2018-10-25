@@ -1,6 +1,6 @@
 <!--index.wxml-->
+<import src="../head/head.wxml"/>
 <view class="container">
-  <view class='twelve column row center'>
-      <image src='../../material/gmair.png' class='logo'></image>
-  </view>
+  <template is='header'>
+  </template>
 </view>

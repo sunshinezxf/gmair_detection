@@ -1,12 +1,13 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/head/head"
   ],
-  "window":{
-    "backgroundTextStyle":"normal",
+  "window": {
+    "backgroundTextStyle": "normal",
     "navigationBarBackgroundColor": "#00AEEF",
     "navigationBarTitleText": "果麦检测",
-    "navigationBarTextStyle":"white"
+    "navigationBarTextStyle": "white"
   }
 }
