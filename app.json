@@ -6,7 +6,7 @@
   "window":{
     "backgroundTextStyle":"normal",
     "navigationBarBackgroundColor": "#00AEEF",
-    "navigationBarTitleText": "果麦空气",
+    "navigationBarTitleText": "果麦检测",
     "navigationBarTextStyle":"white"
   }
 }

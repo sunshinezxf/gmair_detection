@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="container">
-  <view>
-    <image src='../../material/gmair.png'></image>
+  <view class='twelve column row center'>
+      <image src='../../material/gmair.png' class='logo'></image>
   </view>
 </view>

@@ -1,1 +1,10 @@
 /**index.wxss**/
+.logo {
+  margin: 0.2rem auto;
+  height: 2rem;
+  width: 7.5rem;
+}
+
+.center {
+  text-align: center;
+}
