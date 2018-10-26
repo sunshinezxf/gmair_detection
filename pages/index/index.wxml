@@ -9,10 +9,37 @@
     <view class="weui-panel__bd">
       <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
         <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
-          <image class="weui-media-box__thumb" src="{{icon60}}" />
+          <image class="weui-media-box__thumb" src="../../material/cover/formal.png" />
         </view>
         <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
-          <view class="weui-media-box__title">甲醛检测</view>
+          <view class="weui-media-box__title">甲醛检测（进行中）</view>
+          <view class="weui-media-box__desc">免费提供专业的甲醛检测仪，用来检测您家庭的空气质量</view>
+        </view>
+      </navigator>
+      <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+          <image class="weui-media-box__thumb" src="../../material/cover/formal.png" />
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__title">甲醛检测（进行中）</view>
+          <view class="weui-media-box__desc">免费提供专业的甲醛检测仪，用来检测您家庭的空气质量</view>
+        </view>
+      </navigator>
+      <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+          <image class="weui-media-box__thumb" src="../../material/cover/formal.png" />
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__title">甲醛检测（进行中）</view>
+          <view class="weui-media-box__desc">免费提供专业的甲醛检测仪，用来检测您家庭的空气质量</view>
+        </view>
+      </navigator>
+      <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+          <image class="weui-media-box__thumb" src="../../material/cover/formal.png" />
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__title">甲醛检测（进行中）</view>
           <view class="weui-media-box__desc">免费提供专业的甲醛检测仪，用来检测您家庭的空气质量</view>
         </view>
       </navigator>

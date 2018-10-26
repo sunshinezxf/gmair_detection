@@ -1,8 +1,8 @@
-@import "../../material/wxss/weui.wxss"
+@import "../../material/wxss/weui.wxss";
 
 .logo {
-  margin: 0.2rem auto;
-  height: 2rem;
+  margin: 0.8rem auto;
+  height: 1.8rem;
   width: 7.5rem;
 }
 
