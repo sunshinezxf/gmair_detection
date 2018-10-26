@@ -1,6 +1,21 @@
-<!--index.wxml-->
-<import src="../head/head.wxml"/>
 <view class="container">
-  <template is='header'>
-  </template>
+  <view class='row'>
+    <view class='twelve column row center'>
+      <image src='../../material/gmair.png' class='logo'></image>
+    </view>
+  </view>
+  <view class='row'>
+    <view class="weui-panel__hd">活动列表</view>
+    <view class="weui-panel__bd">
+      <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+          <image class="weui-media-box__thumb" src="{{icon60}}" />
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__title">甲醛检测</view>
+          <view class="weui-media-box__desc">免费提供专业的甲醛检测仪，用来检测您家庭的空气质量</view>
+        </view>
+      </navigator>
+    </view>
+  </view>
 </view>

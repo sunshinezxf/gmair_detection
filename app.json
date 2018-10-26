@@ -1,13 +1,28 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/head/head"
+    "pages/index/index"
   ],
   "window": {
     "backgroundTextStyle": "normal",
     "navigationBarBackgroundColor": "#00AEEF",
     "navigationBarTitleText": "果麦检测",
     "navigationBarTextStyle": "white"
-  }
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "活动"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
 }
