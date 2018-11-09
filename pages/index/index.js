@@ -28,7 +28,7 @@ Page({
 
       success: function(res) {
         if(res.data.responseCode == "RESPONSE_OK") {
-          let activity = this.setData.activity;
+          let activity = that.setData.activity;
           var temporary = res.data.data;
           for(var index in temporary) {
             activity.push({
@@ -37,7 +37,7 @@ Page({
             });
           }
 
-          this.setData({
+          that.setData({
             activity: activity
           })
         }
