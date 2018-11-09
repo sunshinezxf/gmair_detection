@@ -7,7 +7,8 @@ Page({
     motto: '果麦空气',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    activity: {activityName: '', introduction: ''}
   },
   //事件处理函数
   bindViewTap: function() {
@@ -15,6 +16,35 @@ Page({
       url: '../logs/logs'
     })
   },
+
+  onShow: function (e) {
+    let that = this
+    wx.request({
+      url: 'https://reception.gmair.net/drift/activity/list',
+      header: {
+        "Content-Type": "application/x-www-form-urlencoded;charset=utf-8"
+      },
+      method: "GET",
+
+      success: function(res) {
+        if(res.data.responseCode == "RESPONSE_OK") {
+          let activity = this.setData.activity;
+          var temporary = res.data.data;
+          for(var index in temporary) {
+            activity.push({
+              activityName: temporary[index].activityName,
+              introduction: temporary[index].introduction,
+            });
+          }
+
+          this.setData({
+            activity: activity
+          })
+        }
+      }
+    });
+  },
+
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({
